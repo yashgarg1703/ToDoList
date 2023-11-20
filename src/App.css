@@ -1,0 +1,43 @@
+/* App.css */
+body{
+  background-color:#D0E7D2;
+}
+li{
+  background-color:#79AC78;
+}
+h1{
+  color:#618264;
+  font-size: 3rem;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.add-text{
+  margin-bottom: 100px;
+}
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo {
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background-color: #80B3FF;
+}
+
+.todo.completed {
+  text-decoration: line-through;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}
